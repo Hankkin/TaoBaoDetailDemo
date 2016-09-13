@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="blackTextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="colorPrimaryTextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="whiteTextStyleTitle">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="greyTextStyleSmall">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/grey_text_color_normal</item>
+    </style>
+    <!--normal白色文本-->
+    <style name="whiteTextStyle">
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="blackTextStyleSmall">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="greyTextStyleSmaller">
+        <item name="android:textSize">@dimen/font_smaller</item>
+        <item name="android:textColor">@color/grey_text_color_normal</item>
+    </style>
+    <style name="colorPrimaryTextStyleSmall">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.hankkin.library.NoScrollListView
+            android:divider="@color/grey_normal_bg"
+            android:dividerHeight="@dimen/spacing_tiny"
+            android:id="@+id/nlv_good_detial_imgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:background="@drawable/list_gray_item"
+            android:drawableRight="@drawable/rightarrow"
+            android:text="安全交易"
+            android:padding="@dimen/spacing_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <include layout="@layout/layout_line"/>
+        <TextView
+            android:background="@drawable/list_gray_item"
+            android:drawableRight="@drawable/rightarrow"
+            android:text="免责声明"
+            android:padding="@dimen/spacing_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <include layout="@layout/layout_line"/>
+        <TextView
+            android:background="@drawable/list_gray_item"
+            android:drawableRight="@drawable/rightarrow"
+            android:text="交易担保"
+            android:padding="@dimen/spacing_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <include layout="@layout/layout_line"/>
+        <TextView
+            android:background="@drawable/list_gray_item"
+            android:drawableRight="@drawable/rightarrow"
+            android:text="我要入驻"
+            android:padding="@dimen/spacing_small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <include layout="@layout/layout_line"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_normal_bg"
+            android:padding="@dimen/spacing_smallest">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/spacing_normal"
+                android:layout_toLeftOf="@+id/tv_good_detail_daodi"
+                android:background="@color/deep_transparent" />
+
+            <TextView
+                android:id="@+id/tv_good_detail_daodi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="已经最到底啦!"
+                android:textSize="@dimen/font_small" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/spacing_normal"
+                android:layout_toRightOf="@+id/tv_good_detail_daodi"
+                android:background="@color/deep_transparent" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
